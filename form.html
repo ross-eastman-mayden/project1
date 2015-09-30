@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="form.css" type="text/css" media="screen">
+</head>
+
+    <body>
+    <!-- form action = what the form does, on submit. (e.g sumbit to a php file)
+              method = http method GET or POST (GET for non sensitive ie URL path, POST for sensitive)
+              action="" method=""
+              name="" ON ALL INPUTS. Server reads data on name
+              html5 input types will not break non html5 numbers. Will just put text box in instead.
+              <x="x"> - attribute
+              <x readonly> - property
+
+
+            -->
+      <div>
+        <a href="www.w3schools.com/html/html_input_types.asp">Html-input-types</a>
+      </div>
+
+      <form action="" method="post">
+        <input placeholder="TETS HERE" type="text" name="username"><br><br>
+        <input type="password" name="password"><br><br>
+        <input type="submit" value="send"><br><br>
+        <input type="radio" name="test" value="yes" checked=""><input type="radio" name="test" value="no"><br><br>
+        <input type="checkbox" name="john" value="yes"><input type="checkbox" name="john" value="no" checked="">
+        <input type="button" onclick="alert ('AWRIGHT ROY?')" value="I, BUTTON">
+        <input type="hidden" name="misnomer" value="hello">
+
+        <br><br><br><br><br><br>
+
+        <textarea placeholder="Text Here" name="facebook status"></textarea>
+
+        <br><br><br><br><br><br>
+
+      <select name="select">
+        <option value="1">PICK ME DOOFUS</option>
+        <option value="2" selected>OR ME!</option>
+      </select>
+      </form>
+
+
+    </body>

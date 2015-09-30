@@ -1,0 +1,49 @@
+/*
+
+*/
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+width: auto;
+padding: 10px;
+background-color: white;
+margin: 0 auto;
+}
+
+.gray-div{
+  color: #000000;
+}
+
+div {
+    background-color: #EEEEEE;
+    width: auto;
+    padding: 25px;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+  display: inline-block;
+  width: 33.3333%;
+  height: 75px;
+  margin:50px;
+}
+
+p {
+  color: black;
+}
